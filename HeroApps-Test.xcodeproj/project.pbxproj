@@ -8,26 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		957FB05E20AF4BEA009E872F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 957FB05D20AF4BEA009E872F /* AppDelegate.m */; };
-		957FB06120AF4BEA009E872F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957FB06020AF4BEA009E872F /* ViewController.m */; };
+		957FB06120AF4BEA009E872F /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957FB06020AF4BEA009E872F /* HeroViewController.m */; };
 		957FB06420AF4BEA009E872F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957FB06220AF4BEA009E872F /* Main.storyboard */; };
 		957FB06720AF4BEA009E872F /* HeroApps_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 957FB06520AF4BEA009E872F /* HeroApps_Test.xcdatamodeld */; };
 		957FB06920AF4BEB009E872F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957FB06820AF4BEB009E872F /* Assets.xcassets */; };
 		957FB06C20AF4BEB009E872F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957FB06A20AF4BEB009E872F /* LaunchScreen.storyboard */; };
 		957FB06F20AF4BEB009E872F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 957FB06E20AF4BEB009E872F /* main.m */; };
+		957FB07B20AF4C2B009E872F /* MoviedPlayedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 957FB07520AF4C2A009E872F /* MoviedPlayedTableViewCell.m */; };
+		957FB07C20AF4C2B009E872F /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 957FB07820AF4C2B009E872F /* Hero.m */; };
+		957FB07D20AF4C2B009E872F /* HeroFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957FB07A20AF4C2B009E872F /* HeroFullScreenViewController.m */; };
+		95D895D520B005FD00A25D2D /* HeroObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D895D420B005FD00A25D2D /* HeroObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		957FB05920AF4BEA009E872F /* HeroApps-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeroApps-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		957FB05C20AF4BEA009E872F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		957FB05D20AF4BEA009E872F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		957FB05F20AF4BEA009E872F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		957FB06020AF4BEA009E872F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		957FB05F20AF4BEA009E872F /* HeroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroViewController.h; sourceTree = "<group>"; };
+		957FB06020AF4BEA009E872F /* HeroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroViewController.m; sourceTree = "<group>"; };
 		957FB06320AF4BEA009E872F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		957FB06620AF4BEA009E872F /* HeroApps_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeroApps_Test.xcdatamodel; sourceTree = "<group>"; };
 		957FB06820AF4BEB009E872F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		957FB06B20AF4BEB009E872F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		957FB06D20AF4BEB009E872F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		957FB06E20AF4BEB009E872F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		957FB07520AF4C2A009E872F /* MoviedPlayedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviedPlayedTableViewCell.m; sourceTree = "<group>"; };
+		957FB07620AF4C2B009E872F /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		957FB07720AF4C2B009E872F /* HeroFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroFullScreenViewController.h; sourceTree = "<group>"; };
+		957FB07820AF4C2B009E872F /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		957FB07920AF4C2B009E872F /* MoviedPlayedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviedPlayedTableViewCell.h; sourceTree = "<group>"; };
+		957FB07A20AF4C2B009E872F /* HeroFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroFullScreenViewController.m; sourceTree = "<group>"; };
+		95D895D320B005FD00A25D2D /* HeroObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroObject.h; sourceTree = "<group>"; };
+		95D895D420B005FD00A25D2D /* HeroObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroObject.m; sourceTree = "<group>"; };
+		95D895DA20B0CE3100A25D2D /* HeroApps-Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeroApps-Test-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,18 +73,51 @@
 		957FB05B20AF4BEA009E872F /* HeroApps-Test */ = {
 			isa = PBXGroup;
 			children = (
+				95D895D620B0BD9C00A25D2D /* modal */,
+				95D895D820B0C2D400A25D2D /* viewController */,
 				957FB05C20AF4BEA009E872F /* AppDelegate.h */,
 				957FB05D20AF4BEA009E872F /* AppDelegate.m */,
-				957FB05F20AF4BEA009E872F /* ViewController.h */,
-				957FB06020AF4BEA009E872F /* ViewController.m */,
 				957FB06220AF4BEA009E872F /* Main.storyboard */,
 				957FB06820AF4BEB009E872F /* Assets.xcassets */,
 				957FB06A20AF4BEB009E872F /* LaunchScreen.storyboard */,
 				957FB06D20AF4BEB009E872F /* Info.plist */,
 				957FB06E20AF4BEB009E872F /* main.m */,
 				957FB06520AF4BEA009E872F /* HeroApps_Test.xcdatamodeld */,
+				95D895DA20B0CE3100A25D2D /* HeroApps-Test-Bridging-Header.h */,
 			);
 			path = "HeroApps-Test";
+			sourceTree = "<group>";
+		};
+		95D895D620B0BD9C00A25D2D /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				957FB07620AF4C2B009E872F /* Hero.h */,
+				957FB07820AF4C2B009E872F /* Hero.m */,
+				95D895D320B005FD00A25D2D /* HeroObject.h */,
+				95D895D420B005FD00A25D2D /* HeroObject.m */,
+			);
+			path = modal;
+			sourceTree = "<group>";
+		};
+		95D895D820B0C2D400A25D2D /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				957FB07720AF4C2B009E872F /* HeroFullScreenViewController.h */,
+				957FB07A20AF4C2B009E872F /* HeroFullScreenViewController.m */,
+				957FB05F20AF4BEA009E872F /* HeroViewController.h */,
+				957FB06020AF4BEA009E872F /* HeroViewController.m */,
+				95D895D920B0C2EF00A25D2D /* cell */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		95D895D920B0C2EF00A25D2D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				957FB07920AF4C2B009E872F /* MoviedPlayedTableViewCell.h */,
+				957FB07520AF4C2A009E872F /* MoviedPlayedTableViewCell.m */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +151,7 @@
 				TargetAttributes = {
 					957FB05820AF4BEA009E872F = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -144,9 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957FB07D20AF4C2B009E872F /* HeroFullScreenViewController.m in Sources */,
 				957FB06720AF4BEA009E872F /* HeroApps_Test.xcdatamodeld in Sources */,
-				957FB06120AF4BEA009E872F /* ViewController.m in Sources */,
+				957FB07C20AF4C2B009E872F /* Hero.m in Sources */,
+				957FB06120AF4BEA009E872F /* HeroViewController.m in Sources */,
 				957FB06F20AF4BEB009E872F /* main.m in Sources */,
+				95D895D520B005FD00A25D2D /* HeroObject.m in Sources */,
+				957FB07B20AF4C2B009E872F /* MoviedPlayedTableViewCell.m in Sources */,
 				957FB05E20AF4BEA009E872F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R7NU24D59;
 				INFOPLIST_FILE = "HeroApps-Test/Info.plist";
@@ -296,6 +348,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Asher-Elgar.HeroApps-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeroApps-Test/HeroApps-Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -304,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R7NU24D59;
 				INFOPLIST_FILE = "HeroApps-Test/Info.plist";
@@ -313,6 +369,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Asher-Elgar.HeroApps-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeroApps-Test/HeroApps-Test-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

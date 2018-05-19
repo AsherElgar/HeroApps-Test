@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  Hero.m
 //  HeroApps-Test
 //
 //  Created by Asher Elgar on 18/05/2018.
 //  Copyright © 2018 Asher Elgar. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Hero.h"
+#import <CoreData/CoreData.h>
 
-@interface ViewController : UIViewController
 
+@implementation Hero
 
 @end
-

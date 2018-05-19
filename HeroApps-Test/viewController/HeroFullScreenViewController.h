@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HeroFullScreenViewController.h
 //  HeroApps-Test
 //
 //  Created by Asher Elgar on 18/05/2018.
@@ -9,9 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@interface HeroFullScreenViewController : UIViewController
 
+@property (nonatomic,strong) UIImage * image;
 @end
-

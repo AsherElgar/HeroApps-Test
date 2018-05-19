@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E202" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="HeroObj" representedClassName="HeroObj" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="moviesPlayed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moviesPlayedString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originalActor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="powers" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearBorn" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="HeroObj" positionX="-36" positionY="9" width="128" height="165"/>
+    </elements>
 </model>
